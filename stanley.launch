@@ -1,0 +1,3 @@
+<launch>
+    <node type="stanley2.py" pkg="stanley" name="stanley_alg" output="screen"/>
+</launch>

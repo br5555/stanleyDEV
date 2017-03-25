@@ -1,0 +1,8 @@
+<launch>
+    <!-- Circular path in polar coordinates -->
+    <node type="path_circle_polar.py" pkg="stanley" name="pathCircle" output="screen"/>
+    <!-- Path shaped like number 8-->
+    <!-- node type="path_eight_polar.py" pkg="stanley" name="pathEight" output="screen"/-->
+    <!-- moving smoothly to left line-->
+    <!-- node type="path_linear.py" pkg="stanley" name="pathLinear" output="screen"/-->
+</launch>
