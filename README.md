@@ -2,9 +2,9 @@
 <br>
 <h2>Installation instructions</h2>
 <br>
-<pre>The driver has been tested with ROS Kinetic on Ubuntu 16.04 64-bit.</pre>
+<p><pre>The driver has been tested with ROS Kinetic on Ubuntu 16.04 64-bit.</pre>
 <pre>stdr_simulator</pre>
-<a>http://wiki.ros.org/stdr_simulator/Tutorials/Set%20up%20STDR%20Simulator</a>
+<a>http://wiki.ros.org/stdr_simulator/Tutorials/Set%20up%20STDR%20Simulator</a></p>
 <br>
 <h2>Steps required to run simulation:</h2>
 <br>
