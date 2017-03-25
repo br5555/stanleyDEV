@@ -18,13 +18,12 @@
 <h3>full.launch contains:</h3>
 
   <ol>
-  <li>1.stanley.launch(running stanley algoritham)</li>
+  <li>stanley.launch(running stanley algoritham)</li>
   <br>
-     <li>2.simulator.launch(running my.launch and rviz.launch)</li> 
+     <li>simulator.launch(running my.launch and rviz.launch)</li> 
       <br>
      <ul> <li>   2.1. my.launch(2D graphical view robot on map)</li> 
-        <br>
         <li>   2.2. rviz.launch(3D graphical view with possibility to subscribe to topics that you inerest in)</li></ul>
-        
-  <li >3.publish.launch (contains three testing paths:circular ,8 path, linear(8 path and linear are commented) you can only choose
+       <br> 
+  <li >publish.launch (contains three testing paths:circular ,8 path, linear(8 path and linear are commented) you can only choose
   one(other must be commented))</li></ol>
