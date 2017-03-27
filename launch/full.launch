@@ -1,0 +1,7 @@
+<launch>
+    <include file="$(find stanley)/launch/stanley.launch"/>
+
+    <include file="$(find stanley)/launch/simulator.launch"/>
+    <include file="$(find stanley)/launch/publish.launch"/>
+
+</launch>

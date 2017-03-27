@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find stanley)/launch/my.launch"/>
+    <include file="$(find stanley)/launch/rviz.launch"/>
+</launch>

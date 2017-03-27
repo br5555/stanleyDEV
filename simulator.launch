@@ -1,4 +1,0 @@
-<launch>
-    <include file="$(find stanley)/my.launch"/>
-    <include file="$(find stdr_launchers)/launch/rviz.launch"/>
-</launch>
