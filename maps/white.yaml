@@ -1,4 +1,4 @@
-image: White3.png
+image: white.png
 resolution: 0.07
 origin: [0.0, 0.0, 0.0]
 occupied_thresh: 0.6
