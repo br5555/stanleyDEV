@@ -8,9 +8,13 @@
 <br>
 <h2>Steps required to run simulation:</h2>
 <br>
-<pre>1.cd catkin_ws</pre>
+<pre>1. check internet connection
 <br>
-<pre>2.roslaunch stanley full.launch</pre>
+<pre>2. cd catkin_ws</pre>
+<br>
+<pre>3. catkin_make</pre>
+<br>
+<pre>4. roslaunch stanley full.launch</pre>
 <br>
 
 
