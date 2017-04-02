@@ -8,7 +8,7 @@
 <br>
 <h2>Steps required to run simulation:</h2>
 <br>
-<pre>1. check internet connection
+<pre>1. check internet connection</pre>
 <br>
 <pre>2. cd catkin_ws</pre>
 <br>
