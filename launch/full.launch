@@ -1,6 +1,6 @@
 <launch>
 
-    <node type="my.py" pkg="stanley" name="download_picture" output="screen"/>
+    <node type="my.py" pkg="stanley" name="picture" />
     <include file="$(find stanley)/launch/stanley.launch"/>
 
     <include file="$(find stanley)/launch/simulator.launch"/>
