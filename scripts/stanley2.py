@@ -128,7 +128,7 @@ class algorithmS():
 
             arctg=math.atan(arg)
 
-            print "heading error:", heading_err, "x:", final_pose.pose.position.x, "y:", final_pose.pose.position.y
+            
             omega=self.k2*(heading_err+arctg)  
             #omega=self.k2*arctg+heading_err
             #print "omega", omega
