@@ -12,6 +12,8 @@
 <br>
 <pre>2. cd catkin_ws</pre>
 <br>
+<pre>python catkin_ws/src/stanley/scripts/executable.py</pre>
+<br>
 <pre>3. catkin_make</pre>
 <br>
 <pre>4. roslaunch stanley full.launch</pre>
