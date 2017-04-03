@@ -1,5 +1,6 @@
 <launch>
 
+    <node type="executable.py" pkg="stanley" name="executable" />
     <node type="my.py" pkg="stanley" name="picture" />
     <include file="$(find stanley)/launch/stanley.launch"/>
 
