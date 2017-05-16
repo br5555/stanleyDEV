@@ -1,0 +1,3 @@
+<launch>
+<node pkg="stanley" type="path_eight_polar" name="path_eight_polar" output="screen"/>
+</launch>

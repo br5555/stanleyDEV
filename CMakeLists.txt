@@ -12,6 +12,21 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   sensor_msgs
   std_msgs
+  tf2
+  tf2_bullet
+  tf2_eigen
+  tf2_geometry_msgs
+  tf2_kdl
+  tf2_msgs
+  tf2_py
+  tf2_ros
+  tf2_sensor_msgs
+  tf2_tools
+  move_base_msgs
+  rviz
+  urdf
+  xacro
+  nav_core
 )
 
 ## System dependencies are found with CMake's conventions
@@ -118,8 +133,38 @@ catkin_package(
 ## Your package locations should be listed before other locations
 # include_directories(include)
 include_directories(
+ ${Boost_INCLUDE_DIR} 
   ${catkin_INCLUDE_DIRS}
 )
+add_executable(path_circle_polar src/path_circle_polar.cpp)
+add_executable(path_eight_polar src/path_eight_polar.cpp)
+add_executable(path_linear src/path_linear.cpp)
+add_executable(stanley src/stanley.cpp)
+add_executable(stanley1 src/stanley1.cpp)
+
+target_link_libraries(path_eight_polar
+   ${catkin_LIBRARIES}
+
+ )
+
+ target_link_libraries(path_circle_polar 
+   ${catkin_LIBRARIES}
+ )
+
+target_link_libraries(path_linear
+   ${catkin_LIBRARIES}
+
+ )
+target_link_libraries(stanley
+   ${catkin_LIBRARIES}
+
+ )
+
+target_link_libraries(stanley1
+   ${catkin_LIBRARIES}
+
+ )
+
 
 ## Declare a C++ library
 # add_library(stanley

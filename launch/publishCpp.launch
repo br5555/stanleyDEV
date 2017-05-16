@@ -1,0 +1,3 @@
+<launch>
+<node pkg="stanley" type="path_circle_polar" name="path_circle_polar" output="screen"/>
+</launch>
